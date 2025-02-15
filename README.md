@@ -7,46 +7,26 @@
 
 ## 📌 Sobre o Projeto
 
-🎯 **Grau Técnico** é um projeto voltado para [...] *(descreva brevemente o propósito do projeto e seu contexto).* 
-
-## 🚀 Tecnologias Utilizadas
-
-- 🔹 [Linguagem/Framework 1](https://link.com)
-- 🔹 [Linguagem/Framework 2](https://link.com)
-- 🔹 [Banco de Dados](https://link.com)
+🎯 **Grau Técnico** é um repositório para disponibilizar materiais de estudo em PDF para alunos do curso Técnico em Informática.
 
 ## 📂 Estrutura do Projeto
 
 ```
 📦 GrauTecnico
-├── 📁 pasta1
-│   ├── 📄 arquivo1.ext
-│   ├── 📄 arquivo2.ext
-├── 📁 pasta2
-│   ├── 📄 arquivo3.ext
-│   ├── 📄 arquivo4.ext
+├── 📁 Materiais
+│   ├── 📄 Apostila1.pdf
+│   ├── 📄 Apostila2.pdf
+├── 📁 Exercícios
+│   ├── 📄 Lista1.pdf
+│   ├── 📄 Lista2.pdf
 ├── 📄 README.md
 ```
 
-## 🛠 Como Executar o Projeto
-
-1. Clone o repositório:
-   ```sh
-   git clone https://github.com/MarianaMilaniMatos/GrauTecnico.git
-   ```
-2. Instale as dependências:
-   ```sh
-   npm install # ou outro gerenciador de pacotes
-   ```
-3. Execute a aplicação:
-   ```sh
-   npm start # ou outro comando necessário
-   ```
-
 ## 📜 Licença
 
-Este projeto está sob a licença MIT. Para mais informações, acesse [LICENSE](LICENSE).
+Este repositório está disponível para uso educacional. Sinta-se à vontade para baixar e utilizar os materiais.
 
 ---
 
-💡 *Sinta-se à vontade para contribuir! Abra uma issue ou envie um pull request.* 😃
+💡 *Caso tenha sugestões de novos materiais, contribua enviando arquivos ou abrindo uma issue!* 😃
+
