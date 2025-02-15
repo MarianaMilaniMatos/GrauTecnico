@@ -13,12 +13,12 @@
 
 ```
 📦 GrauTecnico
-├── 📁 Materiais
-│   ├── 📄 Apostila1.pdf
-│   ├── 📄 Apostila2.pdf
-├── 📁 Exercícios
-│   ├── 📄 Lista1.pdf
-│   ├── 📄 Lista2.pdf
+├── 📁 Material_Apoio
+│   ├── 📄 Atalhos_e_funções_do_teclado.pdf
+│   ├── 📄 Sistemas_Operacionais_Windows_x_Linux.pdf
+├── 📁 Atividades
+│   ├── 📄 ATIVIDADE_1.pdf
+│   ├── 📄 Atividade_CMD.pdf
 ├── 📄 README.md
 ```
 
