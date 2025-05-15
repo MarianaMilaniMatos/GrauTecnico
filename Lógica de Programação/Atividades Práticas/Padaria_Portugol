@@ -1,0 +1,78 @@
+programa {
+  inclua biblioteca Matematica
+  funcao inicio() {
+    inteiro opcao=0, frances= 0, integral= 0, doceLiso= 0, doceFarofa= 0, paoForma= 0
+    real valorFrances= 0, valorIntegral= 0, valorDoceLiso= 0, valorDoceFarofa= 0, valorForma=0, valortotal
+    enquanto (opcao !=6){
+      escreva ("------------PADARIA------------\n")
+      escreva ("[1] Pão Frances\n")
+      escreva ("[2] Pão Integral\n")
+      escreva ("[3] Pão Doce Liso\n")
+      escreva ("[4] Pão Doce Farofa\n")
+      escreva ("[5] Pão de Forma\n")
+      escreva ("[6] Fim da compra.\n")
+      escreva ("-------------------------------\n")
+      escreva ("Escolha sua opção: ")
+      leia (opcao)
+
+
+      escolha (opcao){
+        caso 1:
+        escreva ("Digite a quantidade de pão francês que você quer: ")
+        leia (frances)
+        valorFrances = frances* 1.04
+        valorFrances = Matematica.arredondar (valorFrances, 2)
+        pare
+
+        caso 2:
+        escreva ("Digite a quantidade de pão integral que você quer: ")
+        leia (integral)
+        valorIntegral = integral* 1.04
+        valorIntegral = Matematica.arredondar (valorIntegral, 2)
+        pare
+
+        caso 3:
+        escreva ("Digite a quantidade de pão doce liso que você quer: ")
+        leia (doceLiso)
+        valorDoceLiso = doceLiso* 1.08
+        valorDoceLiso = Matematica.arredondar (valorDoceLiso, 2)
+        pare
+
+        caso 4:
+        escreva ("Digite a quantidade de pão doce farofa que você quer: ")
+        leia (doceFarofa)
+        valorDoceFarofa = doceFarofa* 1.11
+        valorDoceFarofa = Matematica.arredondar (valorDoceFarofa, 2)
+        pare
+
+        caso 5:
+        escreva ("Digite a quantidade de pão shibata que você quer: ")
+        leia (paoForma)
+        valorForma = paoForma* 0.95
+        valorForma = Matematica.arredondar (valorForma, 2)
+        pare
+
+        caso 6:
+        valortotal = (valorFrances+ valorIntegral + valorDoceLiso + valorDoceFarofa + valorForma)
+        valortotal = Matematica.arredondar (valortotal, 2)
+        pare
+      }
+    } 
+    se(frances>0){
+      escreva ("\nPão Francês - Quantidade: ", frances, "| Valor: R$ ", valorFrances)
+    }
+    se (integral>0){
+      escreva ("\nPão Integral - Quantidade: ", integral, "| Valor: R$ ", valorIntegral)
+    }
+    se (doceLiso>0){
+      escreva ("\nPão Doce Liso - Quantidade: ", doceLiso, "| Valor: R$ ", valorDoceLiso)
+    }
+    se (doceFarofa>0){
+      escreva ("\nPão Doce Farofa - Quantidade: ", doceFarofa, "| Valor: R$ ", valorDoceFarofa)
+    }
+    se (paoForma>0){
+      escreva ("\nPão de Forma- Quantidade: ", paoForma, "| Valor: R$ ", valorForma)
+    }
+      escreva ("\nValor total da compra: R$ ", valortotal)
+  }
+}
